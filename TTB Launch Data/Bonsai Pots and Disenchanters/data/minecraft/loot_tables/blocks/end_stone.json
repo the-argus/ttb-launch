@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:end_stone"
+                        },
+                        {
+                            "type": "minecraft:alternatives",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:table_bonus",
+                                            "enchantment": "minecraft:fortune",
+                                            "chances": [
+                                                0.1,
+                                                0.14285715,
+                                                0.25,
+                                                1.0
+                                            ]
+                                        }
+                                    ],
+                                    "name": "origami-games:launch/items/end_stone_fragment",
+                                    "functions": [
+                                        {
+                                            "function": "set_nbt",
+                                            "tag": "{CustomModelData:2,origami-games:{launch:{item:\"end_stone_fragment\"}},display:{Name:'[{\"translate\":\"block.minecraft.end_stone\",\"italic\":false},\" \",{\"translate\":\"item.launch.fragment\"}]'}}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:end_stone"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

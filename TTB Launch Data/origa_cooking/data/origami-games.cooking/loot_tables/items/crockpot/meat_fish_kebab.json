@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cooked_porkchop",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{cooking:{item:\"meat_fish_kebab\",crockpot_item:1b}},display:{Name:'{\"translate\":\"item.origami-games.cooking.meat_fish_kebab\",\"italic\":false}'},CustomModelData:7510003}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

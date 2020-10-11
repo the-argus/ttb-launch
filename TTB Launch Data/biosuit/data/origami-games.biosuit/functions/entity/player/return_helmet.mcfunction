@@ -1,0 +1,5 @@
+summon item ~ ~ ~ {PickupDelay:0,Tags:["bs_helmet","bs_suit"],Item:{id:"minecraft:leather_helmet",Count:1b,tag:{HideFlags:3,Unbreakable:1b,display:{color:16777215}}},AttributeModifiers:[{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:10000,Operation:0,UUID:[I;6500637,-1329705773,-1376247898,1360832457],Slot:"head"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:1,Operation:0,UUID:[I;-1375493571,1259226751,-1486671626,1937154928],Slot:"head"}]}
+execute store result entity @e[type=item,tag=bs_helmet,limit=1,sort=nearest] Item.tag.AttributeModifiers[{AttributeName:'minecraft:generic.armor'}].Amount double 1 run scoreboard players get @s bs_helmet_armor
+
+execute if entity @s[tag=bs_scuba] run data modify entity @e[type=item,tag=bs_helmet,limit=1,sort=nearest] Item.tag.Enchantments append value {id:"minecraft:respiration",lvl:3s}
+execute if entity @s[tag=bs_scuba] run data modify entity @e[type=item,tag=bs_helmet,limit=1,sort=nearest] Item.tag.Enchantments append value {id:"minecraft:aqua_affinity",lvl:1s}

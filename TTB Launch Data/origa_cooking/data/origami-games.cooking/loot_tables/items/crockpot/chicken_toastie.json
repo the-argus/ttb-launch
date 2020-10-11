@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tropical_fish",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{cooking:{item:\"chicken_toastie\",crockpot_item:1b}},display:{Name:'{\"translate\":\"item.origami-games.cooking.chicken_toastie\",\"italic\":false}'},CustomModelData:7510002}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

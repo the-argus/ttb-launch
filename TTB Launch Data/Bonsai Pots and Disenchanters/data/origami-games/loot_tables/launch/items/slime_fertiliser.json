@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"slime_fertiliser\"}},display:{Name:'{\"translate\":\"item.launch.slime_fertiliser\",\"italic\":false}',Lore:['{\"translate\":\"item.launch.slime_fertiliser.lore\"}']},CustomModelData:8}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

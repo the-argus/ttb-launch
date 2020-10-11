@@ -1,0 +1,36 @@
+{
+    "parent": "origami-games:launch/progress/redstonic_locator",
+    "display": {
+        "icon": {
+            "item": "minecraft:armor_stand",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": [
+            {
+                "translate": "advancement.launch.progress.synthesiser"
+            }
+        ],
+        "description": [
+            {
+                "translate": "advancement.launch.progress.synthesiser.description",
+                "color": "gray"
+            }
+        ],
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "synthesiser": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{origami-games:{launch:{item:\"synthesiser\"}}}"
+                    }
+                ]
+            }
+        }
+    }
+}

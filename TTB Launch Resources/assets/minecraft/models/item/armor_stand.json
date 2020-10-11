@@ -1,0 +1,62 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/armor_stand"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "origami-games:launch/item/synthesiser"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "origami-games:launch/item/light_bridge"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "origami-games:launch/item/titanium_plating"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "origami-games:launch/item/magnetite_ore"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "origami-games:launch/item/gravity_pad"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "launch:old/item/disenchanter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "launch:old/item/bonsai_pot"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "launch:old/block/bonsai_pot_part_filled"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "launch:old/block/bonsai_pot_filled"
+        }
+    ]
+}

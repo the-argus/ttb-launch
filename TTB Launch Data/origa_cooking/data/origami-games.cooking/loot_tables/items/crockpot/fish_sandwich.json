@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cooked_porkchop",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{cooking:{item:\"fish_sandwich\",crockpot_item:1b}},display:{Name:'{\"translate\":\"item.origami-games.cooking.fish_sandwich\",\"italic\":false}'},CustomModelData:7510005}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

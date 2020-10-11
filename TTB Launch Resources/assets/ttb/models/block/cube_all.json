@@ -1,0 +1,84 @@
+{
+    "parent": "ttb:block/cube",
+    "textures": {
+        "north": "#all",
+        "east": "#all",
+        "south": "#all",
+        "west": "#all",
+        "up": "#all",
+        "down": "#all"
+    },
+    "elements": [
+        {
+            "name": "cube",
+            "from": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "to": [
+                16.0,
+                16.0,
+                16.0
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#north",
+                    "uv": [
+                        0.0,
+                        0.0,
+                        16.0,
+                        16.0
+                    ]
+                },
+                "east": {
+                    "texture": "#east",
+                    "uv": [
+                        0.0,
+                        0.0,
+                        16.0,
+                        16.0
+                    ]
+                },
+                "south": {
+                    "texture": "#south",
+                    "uv": [
+                        0.0,
+                        0.0,
+                        16.0,
+                        16.0
+                    ]
+                },
+                "west": {
+                    "texture": "#west",
+                    "uv": [
+                        0.0,
+                        0.0,
+                        16.0,
+                        16.0
+                    ]
+                },
+                "up": {
+                    "texture": "#up",
+                    "uv": [
+                        0.0,
+                        0.0,
+                        16.0,
+                        16.0
+                    ],
+                    "rotation": 180
+                },
+                "down": {
+                    "texture": "#down",
+                    "uv": [
+                        0.0,
+                        0.0,
+                        16.0,
+                        16.0
+                    ],
+                    "rotation": 180
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "consume_crockpot_item": {
+            "trigger": "minecraft:consume_item",
+        }
+    },
+    "rewards": {
+        "function": "origami-games.cooking:entity/player/food_consumed"
+    }
+}

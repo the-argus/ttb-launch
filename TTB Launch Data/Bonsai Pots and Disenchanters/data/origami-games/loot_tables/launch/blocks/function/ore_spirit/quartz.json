@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4.0,
+                                "max": 5.0,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:apply_bonus",
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:uniform_bonus_count",
+                            "parameters": {
+                                "bonusMultiplier": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
+                        }
+                    ],
+                    "name": "minecraft:quartz",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/entities/function/ore_spirit",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{spirit_type:\"nether_quartz\"}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

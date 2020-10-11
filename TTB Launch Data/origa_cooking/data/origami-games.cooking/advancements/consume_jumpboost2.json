@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "origami-games.cooking:entity/player/jumpboost_consumed2"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{Jumpboost:2}"
+        }
+      }
+    }
+  }
+}

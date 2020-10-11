@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "origami-games:launch/item/slime_fertiliser"
+    }
+}

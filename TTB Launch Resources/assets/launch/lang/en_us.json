@@ -1,0 +1,60 @@
+{
+  "item.origami-games.cooking.sushi": "Sushi",
+  "item.origami-games.cooking.fish_tacos": "Fish Tacos",
+  "item.origami-games.cooking.tropical_fish_fillet": "Tropical Fish Fillet",
+  "item.origami-games.cooking.baked_salmon": "Baked Salmon",
+  "item.origami-games.cooking.fish_fillet": "Fish Fillet",
+  "item.origami-games.cooking.cooked_carcass": "Cooked Carcass",
+  "item.origami-games.cooking.burger": "Burger",
+  "item.origami-games.cooking.fillet_mignon": "Fillet Mignon",
+  "item.origami-games.cooking.chicken_sandwich": "Chicken Sandwich",
+  "item.origami-games.cooking.mystery_meat_sandwich": "Mystery Meat Sandwich",
+  "item.origami-games.cooking.honey_baked_ham": "Honey Baked Ham",
+  "item.origami-games.cooking.steak_and_salsa": "Steak and Salsa",
+  "item.origami-games.cooking.kebab": "Kebab",
+  "item.origami-games.cooking.gilded_salad": "Gilded Salad",
+  "item.origami-games.cooking.fruit_salad": "Fruit Salad",
+  "item.origami-games.cooking.salad": "Salad",
+  "item.origami-games.cooking.unrecognizable_mush": "Unrecognizable Mush",
+  "item.origami-games.cooking.fish_sandwich": "Fish Sandwich",
+
+  "item.origami-games.cooking.spicy": "Spicy",
+  "item.origami-games.cooking.hearty": "Hearty",
+  "item.origami-games.cooking.sweet": "Sweet",
+  "item.origami-games.cooking.sticky": "Sticky",
+  "item.origami-games.cooking.godly": "Godly",
+
+  "pack.origami-games.cooking.name": "Origami Games' Trademark Cooking",
+  "pack.origami-games.cooking.load": "Loaded",
+
+  "block.origami-games.biosuit.decompressor": "Decompressor",
+
+  "pack.launch.name": "Launch",
+  "pack.origami-games.biosuit.name": "TTB:Launch Biosuit",
+  "pack.origami-games.biosuit.load": "Loaded",
+
+  "%1$s": "%2$s",
+
+    "pack.launch.name": "Launch",
+    "pack.launch.load": "Loaded",
+
+    "text.launch.update": "Successfully updated",
+    "text.launch.downdate": "You are downdating! Disabling pack...",
+    "text.launch.downdate.done": "Pack disabled",
+    "text.launch.update.build_number": "Build Number",
+    "text.launch.update.server_version_number": "Server version",
+    "text.launch.server_version.too_low": "You are not playing in the correct Minecraft version! Disabling pack...",
+    "text.launch.server_version.too_low.done": "Pack disabled",
+
+    "text.launch.up": "Up",
+    "text.launch.down": "Down",
+    "text.launch.north": "North",
+    "text.launch.east": "East",
+    "text.launch.south": "South",
+    "text.launch.west": "West",
+
+    "block.launch.disenchanter": "Disenchanter",
+    "block.launch.bonsai_pot": "Bonsai Pot",
+
+    "item.launch.slime_fertiliser": "Slime Fertilizer"
+}

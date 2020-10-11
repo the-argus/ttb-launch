@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cooked_salmon",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{cooking:{item:\"sushi\",crockpot_item:1b}},display:{Name:'{\"translate\":\"item.origami-games.cooking.sushi\",\"italic\":false}'},CustomModelData:7510004}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

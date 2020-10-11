@@ -1,0 +1,36 @@
+{
+    "parent": "origami-games:launch/progress/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:clock",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": [
+            {
+                "translate": "advancement.launch.progress.redstonic_locator"
+            }
+        ],
+        "description": [
+            {
+                "translate": "advancement.launch.progress.redstonic_locator.description",
+                "color": "gray"
+            }
+        ],
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "redstonic_locator": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{origami-games:{launch:{item:\"redstonic_locator\"}}}"
+                    }
+                ]
+            }
+        }
+    }
+}

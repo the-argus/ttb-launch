@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "origami-games.cooking:entity/player/saturation_consumed20"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{Saturation:20}"
+        }
+      }
+    }
+  }
+}

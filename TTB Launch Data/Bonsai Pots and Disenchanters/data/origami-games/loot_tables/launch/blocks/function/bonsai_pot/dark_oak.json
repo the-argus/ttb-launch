@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:air",
+                    "weight": 7
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:blocks/dark_oak_leaves",
+                    "weight": 16
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dark_oak_log"
+                }
+            ]
+        }
+    ]
+}

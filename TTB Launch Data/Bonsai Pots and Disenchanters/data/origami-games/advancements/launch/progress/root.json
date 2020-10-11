@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gray_concrete",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": [
+            {
+                "translate": "advancement.launch.progress.root"
+            }
+        ],
+        "description": [
+            {
+                "translate": "advancement.launch.progress.root.description",
+                "color": "gray"
+            }
+        ],
+        "frame": "task",
+        "background": "minecraft:textures/block/gray_concrete.png",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "exist": {
+            "trigger": "minecraft:location"
+        }
+    }
+}

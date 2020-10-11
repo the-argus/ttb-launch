@@ -1,0 +1,16 @@
+{
+    "pack": {
+        "pack_format": 4,
+        "description": [
+            {
+                "text": "Launch",
+                "color": "aqua"
+            },
+            "\n",
+            {
+                "text": "Origami Games",
+                "color": "dark_aqua"
+            }
+        ]
+    }
+}

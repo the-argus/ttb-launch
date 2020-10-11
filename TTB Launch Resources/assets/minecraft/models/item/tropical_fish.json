@@ -1,0 +1,116 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/tropical_fish"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 7510003
+            },
+            "model": "launch:item/sushi"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510004
+            },
+            "model": "launch:item/fish_sandwich"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510005
+            },
+            "model": "launch:item/fish_tacos"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510006
+            },
+            "model": "launch:item/tropical_fish_fillet"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510007
+            },
+            "model": "launch:item/baked_salmon"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510008
+            },
+            "model": "launch:item/fish_fillet"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510009
+            },
+            "model": "launch:item/cooked_carcass"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510010
+            },
+            "model": "launch:item/burger"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510011
+            },
+            "model": "launch:item/fillet_mignon"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510012
+            },
+            "model": "launch:item/chicken_sandwich"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510013
+            },
+            "model": "launch:item/mystery_meat_sandwich"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510014
+            },
+            "model": "launch:item/honey_baked_ham"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510015
+            },
+            "model": "launch:item/steak_and_salsa"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510016
+            },
+            "model": "launch:item/kebab"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510017
+            },
+            "model": "launch:item/gilded_salad"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510018
+            },
+            "model": "launch:item/fruit_salad"
+        },
+	{
+            "predicate": {
+                "custom_model_data": 7510019
+            },
+            "model": "launch:item/salad"
+        },
+	{
+            "predicate": {
+                "custom_model_data": 7510020
+            },
+            "model": "launch:item/unrecognizable_mush"
+        }
+    ]
+}

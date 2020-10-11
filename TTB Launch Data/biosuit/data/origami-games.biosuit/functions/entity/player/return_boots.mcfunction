@@ -1,0 +1,4 @@
+summon item ~ ~ ~ {PickupDelay:0,Tags:["bs_boots","bs_suit"],Item:{id:"minecraft:leather_boots",Count:1b,tag:{HideFlags:3,Unbreakable:1b,display:{color:16777215}}},AttributeModifiers:[{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:10000,Operation:0,UUID:[I;6500637,-1329705773,-1376247898,1360832457],Slot:"feet"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:1,Operation:0,UUID:[I;-1375493571,1259226751,-1486671626,1937154928],Slot:"feet"}]}
+execute store result entity @e[type=item,tag=bs_boots,limit=1,sort=nearest] Item.tag.AttributeModifiers[{AttributeName:'minecraft:generic.armor'}].Amount double 1 run scoreboard players get @s bs_boot_armor
+
+execute if entity @s[tag=bs_flippers] run data modify entity @e[type=item,tag=bs_boots,limit=1,sort=nearest] Item.tag.Enchantments append value {id:"minecraft:depth_strider",lvl:3s}
