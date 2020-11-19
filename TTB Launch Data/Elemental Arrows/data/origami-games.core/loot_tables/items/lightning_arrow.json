@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games.core:items/template/arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Lightning Arrow\",\"color\":\"#D4FFFF\",\"italic\":false}'},CustomModelData:7510001,origami-games:{ElementalArrow:1b},origami-games:{launch:{\"lightning\"}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
