@@ -18,6 +18,15 @@
         { "predicate": { "custom_model_data": 6830012 }, "model": "ttb:item/amethyst_sunpad" },
         { "predicate": { "custom_model_data": 6830013 }, "model": "ttb:block/amethyst_sunpad_powered" },
         { "predicate": { "custom_model_data": 6830014 }, "model": "ttb:item/amethyst_block" },
-        { "predicate": { "custom_model_data": 6830015 }, "model": "ttb:item/vulcaanium_block" }
+        { "predicate": { "custom_model_data": 6830015 }, "model": "ttb:item/vulcaanium_block" },
+
+	{ "predicate": { "custom_model_data": 7510001 }, "model": "launch:item/light_bridge" },
+	{ "predicate": { "custom_model_data": 7510002 }, "model": "launch:item/gravity_pad" },
+	{ "predicate": { "custom_model_data": 7510003 }, "model": "launch:old/item/disenchanter" },
+	{ "predicate": { "custom_model_data": 7510004 }, "model": "launch:old/item/bonsai_pot" },
+	{ "predicate": { "custom_model_data": 7510005 }, "model": "launch:old/block/bonsai_pot_part_filled" },
+	{ "predicate": { "custom_model_data": 7510006 }, "model": "launch:old/block/bonsai_pot_filled" },
+	{ "predicate": { "custom_model_data": 7510021 }, "model": "launch:block/decompressor" },
+	{ "predicate": { "custom_model_data": 7510022 }, "model": "launch:block/synthesizer" }
     ]
 }

@@ -46,6 +46,9 @@
         { "predicate": { "custom_model_data": 6830029 }, "model": "ttb:entity/ogre" },
         { "predicate": { "custom_model_data": 6830030 }, "model": "ttb:entity/ogre_hurt" },
         { "predicate": { "custom_model_data": 6830031 }, "model": "ttb:entity/ogre_moving" },
-        { "predicate": { "custom_model_data": 6830032 }, "model": "ttb:entity/ogre_moving_hurt" }
+        { "predicate": { "custom_model_data": 6830032 }, "model": "ttb:entity/ogre_moving_hurt" },
+
+        { "predicate": { "custom_model_data": 7510000 }, "model": "launch:empty" },
+        { "predicate": { "custom_model_data": 7510001 }, "model": "launch:gui/synthesizer" }
     ]
 }

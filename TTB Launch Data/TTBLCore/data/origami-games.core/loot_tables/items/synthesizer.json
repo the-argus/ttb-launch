@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games.core:items/template/block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{EntityTag:{Tags:['lcore_create_block','lcore_create_synthesizer'],CustomName:'\"lcore_create_synthesizer\"'},display:{Name:'{\"translate\":\"item.origami-games.core.synthesizer\",\"italic\":false}'},lcore:{item:'synthesizer'},CustomModelData:7510022}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

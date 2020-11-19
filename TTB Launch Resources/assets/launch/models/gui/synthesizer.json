@@ -1,0 +1,6 @@
+{
+    "parent": "launch:gui/upper_section",
+    "textures": {
+        "texture": "launch:gui/synthesizer"
+    }
+}

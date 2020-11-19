@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games.core:items/template/block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{EntityTag:{Tags:[\"de_create_disenchanter\",\"lcore_create_block\"],CustomName:'\"de_create_disenchanter\"'},display:{Name:'{\"translate\":\"block.launch.disenchanter\",\"italic\":false,\"color\":\"aqua\"}'},origami-games:{launch:{item:\"disenchanter\"}},CustomModelData:7510003}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

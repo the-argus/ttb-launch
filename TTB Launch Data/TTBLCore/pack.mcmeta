@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "pack_format": 5,
+        "description": [
+            {
+                "translate": "pack.origami-games.core.name",
+                "color": "aqua"
+            }, "\n",
+            {
+                "text": "Origami Games",
+                "color": "dark_aqua"
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "change_inventory": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+ "rewards": {
+   "function": "origami-games.core:entity/player/inventory_changed"
+  }
+}

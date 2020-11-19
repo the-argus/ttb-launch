@@ -36,5 +36,7 @@
    "subtitles.entity.item_frame.break": "Shelf breaks",
    "subtitles.entity.item_frame.place": "Shelf placed",
    "subtitles.entity.item_frame.remove_item": "Shelf empties",
-   "subtitles.entity.item_frame.rotate_item": "Shelf clicks"
+   "subtitles.entity.item_frame.rotate_item": "Shelf clicks",
+
+  "item.minecraft.clock": "Synthesizer"
 }

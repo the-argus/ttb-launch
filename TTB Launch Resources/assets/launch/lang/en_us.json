@@ -30,8 +30,11 @@
   "block.origami-games.biosuit.decompressor": "Decompressor",
 
   "pack.launch.name": "Launch",
-  "pack.origami-games.biosuit.name": "TTB:Launch Biosuit",
+  "pack.origami-games.biosuit.name": "TTB Launch Biosuit",
   "pack.origami-games.biosuit.load": "Loaded",
+
+  "pack.origami-games.core.name": "TTB Launch Core",
+  "pack.origami-games.core.load": "Loaded",
 
   "%1$s": "%2$s",
 
@@ -56,5 +59,14 @@
     "block.launch.disenchanter": "Disenchanter",
     "block.launch.bonsai_pot": "Bonsai Pot",
 
-    "item.launch.slime_fertiliser": "Slime Fertilizer"
+    "item.launch.slime_fertiliser": "Slime Fertilizer",
+
+  "pack.origami-games.core.name": "TTB Launch Core",
+  "pack.origami-games.core.load": "Loaded",
+  "item.origami-games.core.clock": "Clock",
+  "item.origami-games.core.synthesizer": "Synthesizer",
+  "block.origami-games.core.synthesizer": "             Synthesizer",
+
+  "pack.origami-games.asteroid.name": "The Asteroid",
+  "pack.origami-games.disenchanters.name": "TTB Launch Disenchanters"
 }

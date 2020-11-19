@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games.core:items/template/item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"item.origami-games.core.clock\",\"italic\":false}'},CustomModelData:7510000}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
