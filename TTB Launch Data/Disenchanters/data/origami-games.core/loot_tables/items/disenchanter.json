@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"de_create_disenchanter\",\"lcore_create_block\"],CustomName:'\"de_create_disenchanter\"'},display:{Name:'{\"translate\":\"block.launch.disenchanter\",\"italic\":false,\"color\":\"aqua\"}'},origami-games:{launch:{item:\"disenchanter\"}},CustomModelData:7510003}"
+                            "tag": "{EntityTag:{Tags:[\"de_create_disenchanter\",\"lcore_create_block\"],CustomName:'\"de_create_disenchanter\"'},display:{Name:'{\"translate\":\"block.launch.disenchanter\",\"italic\":false,\"color\":\"aqua\"}'},lcore:{item:\"disenchanter\"},CustomModelData:7510003}"
                         }
                     ]
                 }

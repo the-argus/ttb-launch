@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:'{\"translate\":\"item.origami-games.elementalarrows.lightning_arrow\",\"color\":\"#D4FFFF\",\"italic\":false}'},CustomModelData:7510001,lcore:{ArrowType:\"lightning\",ElementalArrow:1b}}"
+                            "tag": "{display:{Name:'{\"translate\":\"item.origami-games.elementalarrows.ender_arrow\",\"color\":\"#2AA35F\",\"italic\":false}'},CustomModelData:7510002,lcore:{ArrowType:\"ender\",ElementalArrow:1b}}"
                         }
                     ]
                 }

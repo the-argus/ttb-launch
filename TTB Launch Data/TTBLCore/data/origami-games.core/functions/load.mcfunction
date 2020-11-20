@@ -17,6 +17,11 @@ scoreboard objectives add lcore_drop minecraft.custom:minecraft.drop "Items Drop
 scoreboard objectives add lcore_slot_count dummy
 scoreboard objectives add lcore_slot_size dummy
 
+scoreboard objectives add lcore_UUID0 dummy
+scoreboard objectives add lcore_UUID1 dummy
+scoreboard objectives add lcore_UUID2 dummy
+scoreboard objectives add lcore_UUID3 dummy
+
 #data storage
 data modify storage origami-games.core:block synthesizer.Items set value [{Slot:0b},{Slot:4b},{Slot:5b},{Slot:6b},{Slot:7b},{Slot:8b},{Slot:9b},{Slot:13b},{Slot:14b},{Slot:15b},{Slot:17b},{Slot:18b},{Slot:22b},{Slot:23b},{Slot:24b},{Slot:25b},{Slot:26b}]
 data modify storage origami-games.core:block synthesizer.Items[] merge value {tag:{lcore:{gui_item:1b},display:{Name:'""'},CustomModelData:7510000},id:barrier,Count:1b}
@@ -29,3 +34,4 @@ function origami-games.core:clock16t
 scoreboard objectives add lcore_enabled dummy "Enabled Modules"
 function origami-games.core:modules/disenchanters
 function origami-games.core:modules/bonsai_pots
+function origami-games.core:modules/elemental_arrows

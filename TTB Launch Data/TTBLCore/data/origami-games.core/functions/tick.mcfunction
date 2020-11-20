@@ -1,4 +1,8 @@
 execute as @a[scores={lcore_synth=1..}] at @s run function origami-games.core:entity/player/craft_synthesizer
+
+#detect a changed slot when the player drops an item
+execute as @a[scores={lcore_drop=1}] at @s run function origami-games.elementalarrows:detect_selected_arrow
+
 #reset dropped score so that the item kill in entity/player/craft_synthesizer can work
 scoreboard players set @a lcore_drop 0
 execute as @a[scores={lcore_iframe=1..}] at @s run function origami-games.core:entity/player/placed_custom_block
@@ -10,3 +14,6 @@ execute as @e[type=armor_stand,tag=bp_bonsai_pot] at @s run function origami-gam
 
 #disenchanters
 execute as @e[type=armor_stand,tag=de_disenchanter] at @s run function origami-games.disenchanters:block/disenchanters/processes
+
+#elemental arrows
+execute as @a at @s run function origami-games.elementalarrows:used_bow

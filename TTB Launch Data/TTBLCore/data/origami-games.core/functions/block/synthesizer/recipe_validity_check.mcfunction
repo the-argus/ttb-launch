@@ -16,8 +16,8 @@ execute store result score $stackCount8 lcore_slot_size run data get storage ori
 execute store result score $stackCount9 lcore_slot_size run data get storage origami-games.core:temp block.synthesizer.input[{Slot:21b}].Count
 
 #store the smallest stack size
-scoreboard players set $craftAmount lcore_slot_count 0
-execute if score $stackCount1 lcore_slot_size matches 1.. store result score $craftAmount lcore_slot_count run data get storage origami-games.core:temp block.synthesizer.input[0].Count
+scoreboard players set $craftAmount lcore_slot_count 65
+execute if score $stackCount1 lcore_slot_size matches 1.. if score $stackCount1 lcore_slot_size matches 1.. run scoreboard players operation $craftAmount lcore_slot_count = $stackCount1 lcore_slot_size
 execute if score $stackCount2 lcore_slot_size matches 1.. if score $craftAmount lcore_slot_count > $stackCount2 lcore_slot_size run scoreboard players operation $craftAmount lcore_slot_count = $stackCount2 lcore_slot_size
 execute if score $stackCount3 lcore_slot_size matches 1.. if score $craftAmount lcore_slot_count > $stackCount3 lcore_slot_size run scoreboard players operation $craftAmount lcore_slot_count = $stackCount3 lcore_slot_size
 execute if score $stackCount4 lcore_slot_size matches 1.. if score $craftAmount lcore_slot_count > $stackCount4 lcore_slot_size run scoreboard players operation $craftAmount lcore_slot_count = $stackCount4 lcore_slot_size
@@ -30,7 +30,7 @@ execute if score $stackCount9 lcore_slot_size matches 1.. if score $craftAmount 
 scoreboard players operation @s lcore_slot_size = $craftAmount lcore_slot_count
 
 # tell crafters with valid contents to run recipe checks
-execute if score @s lcore_slot_size matches 1.. run function origami-games.core:block/synthesizer/recipe_check
+execute if score @s lcore_slot_size matches 1..64 run function origami-games.core:block/synthesizer/recipe_check
 
 # if one of the recipes succeeded, then store the craft amount in the result
 execute if entity @s[tag=lcore_recipe_succeeded] store result block ~ ~ ~ Items[{Slot:16b}].Count byte 1 run scoreboard players get $craftAmount lcore_slot_count

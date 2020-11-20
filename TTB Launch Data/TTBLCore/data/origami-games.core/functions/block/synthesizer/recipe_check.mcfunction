@@ -26,7 +26,11 @@ execute if data storage origami-games.core:temp block.synthesizer{input:[{id:'mi
 #gravity pad
 
 #custom arrows
+#lightning arrow
 execute if score $Elemental_Arrows lcore_enabled matches 1.. if data storage origami-games.core:temp block.synthesizer{input:[{id:'minecraft:blaze_rod',Slot:4b},{id:'minecraft:iron_nugget',Slot:1b},{id:'minecraft:feather',Slot:7b}]} unless data storage origami-games.core:temp block.synthesizer.input[{Slot:0b}].Count unless data storage origami-games.core:temp block.synthesizer.input[{Slot:2b}].Count unless data storage origami-games.core:temp block.synthesizer.input[{Slot:3b}].Count unless data storage origami-games.core:temp block.synthesizer.input[{Slot:5b}].Count unless data storage origami-games.core:temp block.synthesizer.input[{Slot:6b}].Count unless data storage origami-games.core:temp block.synthesizer.input[{Slot:8b}].Count run function origami-games.core:crafting/lightning_arrow
+#ender arrow
+execute if score $Elemental_Arrows lcore_enabled matches 1.. if data storage origami-games.core:temp block.synthesizer{input:[{id:'minecraft:blaze_rod',Slot:4b},{id:'minecraft:ender_pearl',Slot:1b},{id:'minecraft:feather',Slot:7b}]} unless data storage origami-games.core:temp block.synthesizer.input[{Slot:0b}].Count unless data storage origami-games.core:temp block.synthesizer.input[{Slot:2b}].Count unless data storage origami-games.core:temp block.synthesizer.input[{Slot:3b}].Count unless data storage origami-games.core:temp block.synthesizer.input[{Slot:5b}].Count unless data storage origami-games.core:temp block.synthesizer.input[{Slot:6b}].Count unless data storage origami-games.core:temp block.synthesizer.input[{Slot:8b}].Count run function origami-games.core:crafting/ender_arrow
+
 
 #disenchanter
 execute if score $Disenchanters lcore_enabled matches 1.. if data storage origami-games.core:temp block.synthesizer{input:[{id:'minecraft:smooth_stone',Slot:0b},{id:'minecraft:writable_book',Slot:1b},{id:'minecraft:smooth_stone',Slot:2b},{id:'minecraft:smooth_stone',Slot:3b},{id:'minecraft:enchanting_table',Slot:4b},{id:'minecraft:smooth_stone',Slot:5b},{id:'minecraft:smooth_stone',Slot:6b},{id:'minecraft:obsidian',Slot:7b},{id:'minecraft:smooth_stone',Slot:8b}]} run function origami-games.core:crafting/disenchanter

@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EntityTag:{Tags:[\"bp_create_bonsai_pot\",\"lcore_create_block\"],CustomName:'\"bp_create_bonsai_pot\"'},display:{Name:'{\"translate\":\"block.launch.bonsai_pot\",\"italic\":false,\"color\":\"aqua\"}'},origami-games:{launch:{item:\"bonsai_pot\"}},CustomModelData:7510004}"
+                            "tag": "{EntityTag:{Tags:[\"bp_create_bonsai_pot\",\"lcore_create_block\"],CustomName:'\"bp_create_bonsai_pot\"'},display:{Name:'{\"translate\":\"block.launch.bonsai_pot\",\"italic\":false,\"color\":\"aqua\"}'},lcore:{item:\"bonsai_pot\"},CustomModelData:7510004}"
                         }
                     ]
                 }

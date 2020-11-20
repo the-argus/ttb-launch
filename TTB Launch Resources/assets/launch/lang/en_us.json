@@ -68,5 +68,7 @@
   "block.origami-games.core.synthesizer": "             Synthesizer",
 
   "pack.origami-games.asteroid.name": "The Asteroid",
-  "pack.origami-games.disenchanters.name": "TTB Launch Disenchanters"
+  "pack.origami-games.disenchanters.name": "TTB Launch Disenchanters",
+  "item.origami-games.elementalarrows.lightning_arrow": "Lightning Bolt",
+  "item.origami-games.elementalarrows.ender_arrow": "Ender Bolt"
 }

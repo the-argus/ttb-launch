@@ -5,3 +5,5 @@ execute unless entity @a run say Elemental Arrows: Loaded
 #initialize scoreboards
 scoreboard objectives add ea_arrow_type dummy
 scoreboard objectives add ea_arrow_slot dummy
+scoreboard objectives add ea_fired minecraft.used:minecraft.bow "Bow Shots Fired"
+scoreboard objectives add ea_counter dummy

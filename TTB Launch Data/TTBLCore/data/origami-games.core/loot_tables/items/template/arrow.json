@@ -5,13 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:tipped_arrow"
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion:\"minecraft:empty\"}"
-                        }
-                    ]
+                    "name": "minecraft:arrow"
                 }
             ]
         }

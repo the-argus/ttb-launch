@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "item/arrow"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 7510001 }, "model": "launch:item/lightning_arrow" },
+        { "predicate": { "custom_model_data": 7510002 }, "model": "launch:item/ender_arrow" }
+    ]
+}
