@@ -71,5 +71,8 @@
   "pack.origami-games.disenchanters.name": "TTB Launch Disenchanters",
   "item.origami-games.elementalarrows.lightning_arrow": "Lightning Bolt",
   "item.origami-games.elementalarrows.ender_arrow": "Ender Arrow",
-  "item.origami-games.elementalarrows.torch_arrow": "Torch Arrow"
+  "item.origami-games.elementalarrows.torch_arrow": "Torch Arrow",
+
+  "pack.origami-games.lightbridges.name": "TTB Launch Light Bridges",
+  "item.launch.light_bridge": "Light Bridge"
 }
