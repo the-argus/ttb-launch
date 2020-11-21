@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games.core:items/template/arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"item.origami-games.elementalarrows.torch_arrow\",\"color\":\"#FF8800\",\"italic\":false}'},CustomModelData:7510003,lcore:{ArrowType:\"torch\",ElementalArrow:1b}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

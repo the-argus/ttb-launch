@@ -5,6 +5,7 @@
     },
     "overrides": [
         { "predicate": { "custom_model_data": 7510001 }, "model": "launch:item/lightning_arrow" },
-        { "predicate": { "custom_model_data": 7510002 }, "model": "launch:item/ender_arrow" }
+        { "predicate": { "custom_model_data": 7510002 }, "model": "launch:item/ender_arrow" },
+        { "predicate": { "custom_model_data": 7510003 }, "model": "launch:item/torch_arrow" }
     ]
 }
