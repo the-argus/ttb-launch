@@ -35,3 +35,4 @@ scoreboard objectives add lcore_enabled dummy "Enabled Modules"
 function origami-games.core:modules/disenchanters
 function origami-games.core:modules/bonsai_pots
 function origami-games.core:modules/elemental_arrows
+function origami-games.core:modules/light_bridges

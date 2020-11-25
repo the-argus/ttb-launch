@@ -10,10 +10,13 @@ execute as @a[scores={lcore_iframe=1..}] at @s run function origami-games.core:e
 execute as @e[type=armor_stand,tag=lcore_synthesizer] at @s run function origami-games.core:block/synthesizer/tick
 
 #bonsai pots
-execute as @e[type=armor_stand,tag=bp_bonsai_pot] at @s run function origami-games.bonsaipots:block/bonsaipots/processes
+execute if score $Bonsai_Pots lcore_enabled matches 1.. as @e[type=armor_stand,tag=bp_bonsai_pot] at @s run function origami-games.bonsaipots:block/bonsaipots/processes
 
 #disenchanters
-execute as @e[type=armor_stand,tag=de_disenchanter] at @s run function origami-games.disenchanters:block/disenchanters/processes
+execute if score $Disenchanters lcore_enabled matches 1.. as @e[type=armor_stand,tag=de_disenchanter] at @s run function origami-games.disenchanters:block/disenchanters/processes
 
 #elemental arrows
-execute as @a at @s run function origami-games.elementalarrows:used_bow
+execute if score $Elemental_Arrows lcore_enabled matches 1.. as @a at @s run function origami-games.elementalarrows:used_bow
+
+#light bridges
+execute if score $Light_Bridges lcore_enabled matches 1.. as @e[type=armor_stand,tag=lb_light_bridge] at @s run function origami-games.lightbridges:block/light_bridges/processes

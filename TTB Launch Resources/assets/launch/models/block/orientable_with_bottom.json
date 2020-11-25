@@ -1,0 +1,26 @@
+{
+    "parent": "launch:block/cube",
+    "display": {
+        "head": {
+            "translation": [
+                0,
+                -14.7,
+                0
+            ],
+            "scale": [
+                2.293,
+                2.293,
+                2.293
+            ]
+        }
+    },
+    "textures": {
+        "particle": "#front",
+        "down": "#bottom",
+        "up": "#top",
+        "north": "#front",
+        "east": "#side",
+        "south": "#side",
+        "west": "#side"
+    }
+}
