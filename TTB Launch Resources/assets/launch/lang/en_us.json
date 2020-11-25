@@ -75,5 +75,9 @@
 
   "pack.origami-games.lightbridges.name": "TTB Launch Light Bridges",
   "item.launch.light_bridge": "Light Bridge",
-  "block.launch.light_bridge": "Light Bridge"
+  "block.launch.light_bridge": "Light Bridge",
+
+  "pack.origami-games.gravitypads.name": "Gravity Pads",
+  "item.launch.gravity_pad": "Gravity Pad",
+  "block.launch.gravity_pad": "Gravity Pad"
 }

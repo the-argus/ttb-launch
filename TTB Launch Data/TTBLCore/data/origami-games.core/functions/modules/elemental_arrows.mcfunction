@@ -1,1 +1,1 @@
-scoreboard players set $Elemental_Arrows lcore_enabled 0
+#scoreboard players set $Elemental_Arrows lcore_enabled 0

@@ -20,3 +20,6 @@ execute if score $Elemental_Arrows lcore_enabled matches 1.. as @a at @s run fun
 
 #light bridges
 execute if score $Light_Bridges lcore_enabled matches 1.. as @e[type=armor_stand,tag=lb_light_bridge] at @s run function origami-games.lightbridges:block/light_bridges/processes
+
+#gravity pads
+execute if score $Gravity_Pads lcore_enabled matches 1.. as @e[type=armor_stand,tag=gp_gravity_pad] at @s run function origami-games.gravitypads:block/gravity_pads/processes

@@ -29,6 +29,7 @@
 	{ "predicate": { "custom_model_data": 7510007 }, "model": "launch:block/light_bridge" },
 	{ "predicate": { "custom_model_data": 7510008 }, "model": "launch:block/light_bridge_up" },
 	{ "predicate": { "custom_model_data": 7510009 }, "model": "launch:block/light_bridge_down" },
+	{ "predicate": { "custom_model_data": 7510010 }, "model": "launch:block/gravity_pad" },
 	{ "predicate": { "custom_model_data": 7510021 }, "model": "launch:block/decompressor" },
 	{ "predicate": { "custom_model_data": 7510022 }, "model": "launch:block/synthesizer" }
     ]

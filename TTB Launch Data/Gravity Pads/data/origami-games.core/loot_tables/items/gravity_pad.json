@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games.core:items/template/block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{EntityTag:{Tags:[\"gp_create_gravity_pad\",\"lcore_create_block\"],CustomName:'\"gp_create_gravity_pad\"'},display:{Name:'{\"translate\":\"item.launch.gravity_pad\",\"italic\":false,\"color\":\"aqua\"}'},lcore:{item:\"gravity_pad\"},CustomModelData:7510010}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

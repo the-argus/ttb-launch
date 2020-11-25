@@ -6,7 +6,7 @@ playsound minecraft:block.stone.place block @a[distance=..16] ~ ~ ~ .8 .9 1
 #kill summon frame
 kill @s[type=!player]
 
-#create disenchanter
+#create light bridge
 #execute if block ~ ~ ~ dropper[facing=up]{CustomName:'{"translate":"block.launch.light_bridge"}'} run loot spawn ~ ~ ~ loot origami-games.core:items/light_bridge
 execute if block ~ ~ ~ redstone_lamp run loot spawn ~ ~ ~ loot origami-games.core:items/light_bridge
 fill ~ ~ ~ ~ ~ ~ redstone_lamp replace #origami-games.core:replace_on_creation
