@@ -1,5 +1,19 @@
 {
-  "parent": "launch:old/block/cube",
+  "parent": "launch:block/cube_all_side",
+  "display": {
+        "head": {
+            "translation": [
+                0,
+                -14.7,
+                0
+            ],
+            "scale": [
+                2.293,
+                2.293,
+                2.293
+            ]
+        }
+    },
   "textures": {
       "side": "launch:block/gravity_pad_side",
       "up": "launch:block/gravity_pad_top",

@@ -22,6 +22,12 @@ scoreboard objectives add lcore_UUID1 dummy
 scoreboard objectives add lcore_UUID2 dummy
 scoreboard objectives add lcore_UUID3 dummy
 
+scoreboard objectives add lcore_bsin dummy
+scoreboard objectives add lcore_bcos dummy
+scoreboard objectives add lcore_math dummy
+scoreboard players set $lcore_trigscale lcore_math 1000
+#scoreboard players set $pi_e9 lcore_math 3141592653
+
 #data storage
 data modify storage origami-games.core:block synthesizer.Items set value [{Slot:0b},{Slot:4b},{Slot:5b},{Slot:6b},{Slot:7b},{Slot:8b},{Slot:9b},{Slot:13b},{Slot:14b},{Slot:15b},{Slot:17b},{Slot:18b},{Slot:22b},{Slot:23b},{Slot:24b},{Slot:25b},{Slot:26b}]
 data modify storage origami-games.core:block synthesizer.Items[] merge value {tag:{lcore:{gui_item:1b},display:{Name:'""'},CustomModelData:7510000},id:barrier,Count:1b}

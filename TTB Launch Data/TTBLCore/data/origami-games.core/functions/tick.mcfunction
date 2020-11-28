@@ -23,3 +23,5 @@ execute if score $Light_Bridges lcore_enabled matches 1.. as @e[type=armor_stand
 
 #gravity pads
 execute if score $Gravity_Pads lcore_enabled matches 1.. as @e[type=armor_stand,tag=gp_gravity_pad] at @s run function origami-games.gravitypads:block/gravity_pads/processes
+execute if score $Gravity_Pads lcore_enabled matches 1.. run function origami-games.gravitypads:tick
+execute if score $Gravity_Pads lcore_enabled matches 1.. as @e[type=armor_stand,tag=gp_gravity_pad] at @s align xyz positioned ~-1 ~ ~-1 run tag @e[dx=2,dy=10,dz=2] remove gp_acted_upon
